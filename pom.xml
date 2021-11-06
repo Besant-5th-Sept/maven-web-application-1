@@ -92,6 +92,21 @@
 		</dependency>
 		
 	</dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Nexus Repository</name>
+	      <url>http://13.232.249.226:8081/repository/nexus-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Nexus Repository </name>
+	      <url>http://13.232.249.226:8081/repository/nexus-snapshot/</url>
+	    </snapshotRepository>
+		
+	</distributionManagement>
 
   <build>
     <finalName>maven-web-application-master</finalName>
